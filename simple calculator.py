@@ -20,20 +20,20 @@ while True:
 
         if op == '+':
             num_add = num1 + num2
-            print(num1, '+', num2, '=', num_add)
+            print('Result:', num1, '+', num2, '=', num_add)
 
         elif op == '-':
             num_sub = num1 - num2
-            print(num1, '-', num2, '=', num_sub)
+            print('Result:',num1, '-', num2, '=', num_sub)
 
         elif op == '*':
-            num_multi = num1 - num2
-            print(num1, '*', num2, '=', num_multi)
+            num_multi = num1 * num2
+            print('Result:',num1, '*', num2, '=', num_multi)
 
         elif op == '/':
             if num2 != 0:
                 num_div = num1 / num2
-                print(num1, '/', num2, '=', num_div)
+                print('Result:',num1, '/', num2, '=', num_div)
             elif num1 == 0 and num2 == 0:
                 print('ERROR: Undefined')
                 print('-' * 40)
